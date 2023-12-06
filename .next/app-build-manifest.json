@@ -1,0 +1,34 @@
+{
+  "pages": {
+    "/(landing)/[lang]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(landing)/[lang]/page.css",
+      "static/chunks/app/(landing)/[lang]/page.js"
+    ],
+    "/(landing)/[lang]/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(landing)/[lang]/layout.css",
+      "static/chunks/app/(landing)/[lang]/layout.js"
+    ],
+    "/(landing)/[lang]/error": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(landing)/[lang]/error.css",
+      "static/chunks/app/(landing)/[lang]/error.js"
+    ],
+    "/(landing)/[lang]/not-found": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(landing)/[lang]/not-found.css",
+      "static/chunks/app/(landing)/[lang]/not-found.js"
+    ],
+    "/(landing)/[lang]/blog/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(landing)/[lang]/blog/page.css",
+      "static/chunks/app/(landing)/[lang]/blog/page.js"
+    ]
+  }
+}
