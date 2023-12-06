@@ -1,0 +1,41 @@
+.help {
+  background: var(--grey700);
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+}
+
+.wrapper p {
+  color: var(--yellow500);
+  text-align: center;
+  font-family: var(--font-manrope);
+  font-size: var(--body-lg-fs);
+  font-style: normal;
+  font-weight: var(--body-lg-fw);
+  line-height: var(--body-lg-lh);
+}
+
+.wrapper button {
+  min-width: 120px;
+}
+
+@media screen and (min-width: 1024px) {
+  .wrapper {
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .wrapper p {
+    font-family: var(--font-mulish);
+    font-size: var(--title2-fs);
+    font-style: normal;
+    font-weight: var(--title2-fw);
+    line-height: var(--title2-lh);
+  }
+}

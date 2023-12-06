@@ -1,0 +1,223 @@
+.footer {
+  background: var(--grey900);
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  color: var(--white);
+  box-sizing: border-box;
+  padding: var(--padding-lg) var(--padding-sm);
+  margin: 0 auto;
+}
+
+.captions {
+  color: var(--grey300);
+  font-family: var(--font-manrope);
+  font-size: var(--captions-fs);
+  font-style: normal;
+  font-weight: var(--captions-fw);
+  line-height: var(--captions-lh);
+  letter-spacing: var(--captions-ls);
+}
+
+.logo {
+  position: relative;
+  width: 137px;
+  height: 76px;
+}
+
+.map {
+  position: relative;
+  min-width: 343px;
+  height: 239px;
+}
+
+.contactWrapper,
+.getTouch {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  color: var(--white);
+}
+
+.text {
+  font-family: var(--font-manrope);
+  font-size: var(--body-medium-web-fs);
+  font-style: normal;
+  font-weight: var(--body-medium-web-fw);
+  line-height: var(--body-medium-web-lh);
+}
+
+.phones {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.socialBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.social {
+  display: flex;
+  gap: 24px;
+}
+
+.rules {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 343px;
+}
+
+.rules span,
+.rights {
+  color: var(--grey300);
+  font-family: var(--font-manrope);
+  font-size: var(--body-small-fs);
+  font-style: normal;
+  font-weight: var(--body-small-fw);
+  line-height: var(--body-small-lh);
+  position: relative;
+}
+
+.usage {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.usage span:nth-child(1) {
+  position: relative;
+}
+
+.usage span:nth-child(1)::after,
+.rules a span::after {
+  content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="5" height="5"><circle cx="2.5" cy="2.5" r="2" fill="%23D9D9D9"/></svg>');
+  position: absolute;
+  right: -6px;
+  top: -1px;
+}
+
+@media (min-width: 768px) {
+  .wrapper {
+    padding: var(--padding-xl) var(--padding-xxl);
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .logo {
+    order: 2;
+    width: 80px;
+    height: 44px;
+    float: left;
+  }
+
+  .text {
+    font-family: var(--font-manrope);
+    font-size: var(--body-medium-mb-fs);
+    font-weight: var(--body-medium-mb-fw);
+    line-height: var(--body-medium-mb-lh);
+  }
+
+  .contactWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 29%;
+    order: 1;
+    width: 100%;
+  }
+
+  .rules {
+    align-self: center;
+    align-items: center;
+    order: 3;
+    width: 65%;
+  }
+
+  .map {
+    width: 285px;
+    height: 200px;
+    min-width: 285px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .wrapper {
+    display: grid;
+    grid-template-areas:
+      "logo contactWrapper"
+      "rules contactWrapper";
+    width: 888px;
+    padding: 96px var(--padding-xxl);
+    box-sizing: unset;
+    gap: normal;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+  }
+
+  .logo {
+    grid-area: logo;
+    width: 144px;
+    height: 80px;
+    align-self: flex-start;
+  }
+
+  .contactWrapper {
+    grid-area: contactWrapper;
+    gap: 50px;
+    justify-content: space-between;
+  }
+
+  .rules {
+    grid-area: rules;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 175px;
+    align-self: flex-end;
+  }
+
+  .map {
+    width: 345px;
+    height: 242px;
+  }
+
+  .getTouch {
+    width: 244px;
+    gap: 32px;
+  }
+
+  .rules span:nth-child(1)::after {
+    content: "";
+    position: absolute;
+    right: -6px;
+    top: -1px;
+  }
+
+  .usage {
+    justify-content: flex-start;
+  }
+
+  .rights {
+    width: 211px;
+    display: inline-block;
+  }
+}

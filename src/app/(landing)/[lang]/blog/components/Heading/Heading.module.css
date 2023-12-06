@@ -1,0 +1,48 @@
+.heading {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.title {
+  color: var(--grey900);
+  font-family: var(--font-mulish);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.text {
+  color: var(--grey700);
+  font-family: var(--font-manrope);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 162.5%;
+  text-align: center;
+}
+
+@media screen and (min-width: var(--breakpoint-md)) {
+  .heading {
+    gap: 4px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .heading {
+    gap: 4px;
+  }
+
+  .title {
+    font-size: 48px;
+    font-weight: 800;
+  }
+
+  .text {
+    font-size: 18px;
+    font-weight: 500;
+  }
+}

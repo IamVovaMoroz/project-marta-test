@@ -1,0 +1,227 @@
+.accordion-wrapper {
+  max-width: 424px;
+  width: 100%;
+  background-color: var(--gray-light);
+  border-radius: 8px;
+}
+
+.accordion-section {
+  padding: 16px;
+  border-bottom: 1px solid var(--grey700);
+}
+
+.accordion-subtitle {
+  font-family: var(--font-manrope), sans-serif;
+  font-size: var(--body-lg-fs);
+  font-weight: var(--body-lg-fw);
+  line-height: var(--body-lg-lh);
+  color: var(--grey900);
+}
+
+.accordion-section:last-child {
+  border-bottom: none;
+}
+
+.accordion-header {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.accordion-img {
+  width: auto;
+  height: 24px;
+}
+
+.bitcoin-img {
+  width: auto;
+  height: 20px;
+}
+
+.accordion-arrow__transform {
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transition: transform 0.3s ease-in-out;
+}
+
+.accordion-arrow__back {
+  transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transition: transform 0.3s ease-in-out;
+}
+
+.accordion-description {
+  padding-top: 16px;
+  max-width: 343px;
+  width: 100%;
+}
+
+.privatbank__accordion-description {
+  padding-top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+
+.privatbank-button {
+  align-self: stretch;
+}
+
+.privatbank-text {
+  text-align: center;
+}
+
+.accordion-description__button {
+  padding-top: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+}
+
+.button-subscribe {
+  display: block;
+  width: 93px;
+  font-family: var(--font-manrope), sans-serif;
+  font-size: 14px;
+  font-weight: var(--body-medium-semibold-fw);
+  line-height: var(--body-medium-semibold-lh);
+}
+
+.button-online {
+  align-self: stretch;
+  width: 100%;
+}
+
+.accordion-paragraph:nth-child(odd),
+.accordion-paragraph__paypal:nth-child(even),
+.privatbank-text,
+.bank-transfer__text:nth-child(odd),
+.bank-transfer__text-ua:nth-child(even),
+.bank-transfer__text-ua:nth-child(3) {
+  font-family: var(--font-manrope), sans-serif;
+  font-size: var(--body-small-fs);
+  font-weight: var(--body-small-fw);
+  line-height: var(--body-small-lh);
+  color: var(--grey700);
+}
+
+.bank-transfer__text:nth-child(even),
+.bank-transfer__text-ua:nth-child(odd),
+.bank-transfer__text-ua:first-child,
+.bank-transfer__text-ua:nth-child(2),
+.bank-transfer__text-ua:nth-child(4),
+.bank-transfer__text-ua:nth-child(5) {
+  margin-bottom: 12px;
+}
+
+.accordion-paragraph:nth-child(even),
+.paypal__accordion-paragraph:nth-child(odd),
+.bank-transfer__text:nth-child(even),
+.bank-transfer__text-ua:nth-child(odd),
+.bank-transfer__text-ua:nth-child(2),
+.bank-transfer__text-ua:nth-child(4),
+.bank-transfer__text-ua:nth-child(5) {
+  font-family: var(--font-manrope), sans-serif;
+  font-size: var(--body-medium-mb-fs);
+  font-weight: var(--body-medium-mb-fw);
+  line-height: var(--body-medium-mb-lh);
+  color: var(--grey900);
+}
+
+.bank-transfer__text-ua:nth-child(3) {
+  font-family: var(--font-manrope), sans-serif;
+  font-size: var(--body-small-fs);
+  font-weight: var(--body-small-fw);
+  line-height: var(--body-small-lh);
+  color: var(--grey700);
+  margin-bottom: 0;
+}
+
+.bank-transfer__text-ua:nth-child(11) {
+  margin-bottom: 0;
+}
+
+.bank-transfer__wrapper {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.bank-transfer__button {
+  padding: 4px 8px;
+  background: var(--gray-light);
+  display: flex;
+  align-self: flex-start;
+  gap: 8px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
+.bank-transfer__button .button-transparent {
+  background: none;
+  border: none;
+  box-shadow: none;
+}
+
+@media screen and (min-width: 1280px) {
+  .accordion-paragraph:nth-child(odd),
+  .accordion-paragraph__paypal:nth-child(even),
+  .privatbank-text,
+  .bank-transfer__text:nth-child(odd),
+  .bank-transfer__text-ua:nth-child(even),
+  .bank-transfer__text-ua:nth-child(3) {
+    font-family: var(--font-manrope), sans-serif;
+    font-size: var(--body-medium-mb-fs);
+    font-weight: var(--body-medium-mb-fw);
+    line-height: var(--body-medium-mb-lh);
+  }
+
+  .accordion-paragraph:nth-child(even),
+  .paypal__accordion-paragraph:nth-child(odd),
+  .bank-transfer__text:nth-child(even),
+  .bank-transfer__text-ua:nth-child(odd),
+  .bank-transfer__text-ua:nth-child(2),
+  .bank-transfer__text-ua:nth-child(4),
+  .bank-transfer__text-ua:nth-child(5) {
+    font-family: var(--font-manrope), sans-serif;
+    font-size: var(--body-medium-web-fs);
+    font-weight: var(--body-medium-web-fw);
+    line-height: var(--body-medium-web-lh);
+  }
+
+  .accordion-description__button {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .button-subscribe {
+    width: 120px;
+  }
+}
+
+@media screen and (min-width: 2000px) {
+  .accordion-wrapper {
+    max-width: 580px;
+  }
+
+  .accordion-description__button {
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .button-subscribe {
+    width: 120px;
+  }
+}

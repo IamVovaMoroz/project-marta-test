@@ -1,0 +1,131 @@
+.hiddenContext-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  opacity: 1;
+  animation-name: slowlyOpen;
+  animation-duration: 2s;
+}
+
+@keyframes slowlyOpen {
+  0% {
+    opacity: 0;
+    max-height: 15px;
+  }
+  100% {
+    opacity: 1;
+    max-height: 1300px;
+  }
+}
+
+.angelDoll-img {
+  max-height: 400px;
+  height: 100%;
+  object-fit: contain;
+}
+
+.angelDoll-btn {
+  word-wrap: break-word;
+}
+
+.hiddenDescription {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.hiddenText p {
+  font-family: var(--font-manrope), sans-serif;
+  font-size: var(--body-medium-mb-fs);
+  font-weight: var(--body-medium-mb-fw);
+  line-height: var(--body-medium-mb-lh);
+  margin-bottom: 12px;
+}
+
+.hiddenText p:last-child {
+  margin-bottom: 0;
+}
+
+.hidden-borderWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  border: 4px solid var(--yellow500);
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.hidden-borderWrapper h4 {
+  font-family: var(--font-mulish), sans-serif;
+  font-size: var(--subtitle-bold-fs);
+  font-weight: var(--subtitle-bold-fw);
+  line-height: var(--subtitle-bold-lh);
+}
+
+.hidden-borderText {
+  display: flex;
+  flex-direction: column;
+}
+
+.hidden-borderText h6 {
+  font-family: var(--font-manrope), sans-serif;
+  font-size: var(--body-medium-web-fs);
+  font-weight: var(--body-medium-web-fw);
+  line-height: var(--body-medium-web-lh);
+}
+
+.hidden-borderText p {
+  font-family: var(--font-manrope), sans-serif;
+  font-size: var(--body-small-fs);
+  font-weight: var(--body-small-fw);
+  line-height: var(--body-small-lh);
+}
+
+@media screen and (min-width: 768px) {
+  .hiddenContext-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: space-between;
+  }
+
+  .angelDoll-img {
+    height: 100%;
+    width: 100%;
+    max-width: 320px;
+    object-fit: fill;
+  }
+
+  .hiddenImg-wrapper {
+    height: 100%;
+    width: 100%;
+    max-width: 320px;
+    max-height: 400px;
+  }
+
+  .hiddenDescription {
+    max-width: 800px;
+  }
+
+  .hidden-borderWrapper {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .hiddenDescription {
+    justify-content: space-between;
+  }
+
+  .hidden-borderText {
+    max-width: 252px;
+  }
+
+  .hiddenText p {
+    font-family: var(--font-manrope), sans-serif;
+    font-size: var(--body-medium-web-fs);
+    font-weight: var(--body-medium-web-fw);
+    line-height: var(--body-medium-web-lh);
+    margin-bottom: 16px;
+  }
+}

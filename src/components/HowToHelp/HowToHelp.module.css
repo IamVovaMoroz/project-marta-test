@@ -1,0 +1,104 @@
+.extraWidth {
+  max-width: 888px;
+  margin: 0 auto;
+}
+
+.howToHelp {
+  background-color: var(--yellow500);
+}
+
+.howToHelp-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-family: var(--font-mulish), sans-serif;
+  font-size: var(--subtitle-bold-fs);
+  font-weight: var(--subtitle-bold-fw);
+  line-height: var(--subtitle-bold-lh);
+  margin-bottom: 16px;
+}
+
+.paragraph {
+  font-family: var(--font-manrope), sans-serif;
+  font-size: var(--body-medium-web-fs);
+  font-weight: var(--body-medium-web-fw);
+  line-height: var(--body-medium-web-lh);
+  margin-bottom: 16px;
+  max-width: 434px;
+  width: 100%;
+  /* text-align: justify; */
+}
+
+@media screen and (min-width: 600px) {
+  .howToHelp-wrapper {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 16px;
+    align-items: flex-start;
+  }
+
+  .paragraph {
+    max-width: 424px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .howToHelp-wrapper {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 16px;
+    align-items: flex-start;
+  }
+
+  .title {
+    font-family: var(--font-mulish), sans-serif;
+    font-size: var(--title1-fs);
+    font-weight: var(--title1-fw);
+    line-height: var(--title1-lh);
+    margin-bottom: 32px;
+  }
+
+  .paragraph {
+    font-family: var(--font-mulish), sans-serif;
+    font-size: var(--subtitle-medium-fs);
+    font-weight: var(--subtitle-medium-fw);
+    line-height: var(--subtitle-medium-lh);
+    max-width: 580px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .howToHelp-wrapper {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .title {
+    font-family: var(--font-mulish), sans-serif;
+    font-size: var(--title1-fs);
+    font-weight: var(--title1-fw);
+    line-height: var(--title1-lh);
+    margin-bottom: 32px;
+  }
+
+  .paragraph {
+    font-family: var(--font-mulish), sans-serif;
+    font-size: var(--subtitle-medium-fs);
+    font-weight: var(--subtitle-medium-fw);
+    line-height: var(--subtitle-medium-lh);
+    max-width: 424px;
+  }
+}
+
+@media screen and (min-width: 2000px) {
+  .paragraph {
+    max-width: 580px;
+  }
+
+  .extraWidth {
+    max-width: 1200px;
+  }
+}

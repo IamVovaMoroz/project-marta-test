@@ -1,0 +1,21 @@
+.wrapper {
+  background: var(--grey100);
+}
+
+.blog {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+@media screen and (min-width: 1280px) {
+  .blog {
+    padding-top: 112px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .blog {
+    padding-top: 176px;
+  }
+}

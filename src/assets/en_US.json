@@ -1,0 +1,301 @@
+{
+  "nav": {
+    "mainPage": "MAIN",
+    "blog": "BLOG",
+    "news": "NEWS"
+  },
+  "hero": {
+    "title": "THE CITY OF GOODNESS",
+    "subtitle": "International Center for Support of Women and Children.\nA city where a mother is close to her child.",
+    "supportBtn": "Support the project"
+  },
+  "needHelp": {
+    "title": "War",
+    "subtitle": "Need help!",
+    "text": [
+      "The situation in Ukraine is dire. On February 24th, the Russian army launched a full-scale military offensive against our country. Dozens of Ukrainian cities and towns are being bombed and shelled from all types of weapons. Missiles hit children's hospitals, kindergartens, schools, and residential buildings. Civilians are hiding in basements, metro stations, and bomb shelters. Our Foundation cannot and will not stand by.",
+      "Currently, we are accommodating women with children and the elderly from all over the country in our center. We accept families with household pets and with no restrictions, we settle them, feed them, provide medical care, and try to make this time a little less traumatic for the little ones. We have also taken in three evacuated children's homes from the South of Ukraine. These are children from birth to 7 years old. Therefore, we URGENTLY need your help and support!",
+      "We are urgently finishing the construction of the fourth and fifth buildings with bomb shelters right now! This will allow us to accommodate an additional two hundred evacuated children who have been affected by the war. For this, we need funds and construction materials. We also have a constant need for food, medicine, hygiene items, pillows, baby food, and clothing.",
+      "In addition, the Foundation is trying to support children's hospitals and impoverished families throughout the country. Thousands of children with complex diagnoses have been left on their own amidst the war. Hospitals urgently need essentials – clean water, food, medical supplies, and consumables."
+    ],
+    "button": "Support"
+  },
+  "history": {
+    "title": "How did the City of Goodness originate?",
+    "sliderOne": {
+      "text": [
+        "The shelter for mothers and their children emerged out of an urgent need. An increasing number of women were reaching out to the foundation, seeking shelter and rescue for themselves and their children. Initially, it operated in a rented building. Over a few years of its operation there, the 'City of Goodness' assisted nearly 600 children. However, by 2018, it became clear that the 'City of Goodness' required its own building. Firstly, no rented house could accommodate all those who sought help from across Ukraine. Secondly, the houses weren't designed to house a large number of children of various ages simultaneously, nor did they take into consideration the principles of inclusivity required for mothers and children in different physical states and health conditions. This is when our major construction project began."
+      ],
+      "img": "/images/history/slider-one.jpg",
+      "alt": "Shelter for mothers with children"
+    },
+    "sliderTwo": {
+      "text": [
+        "Now, the 'City of Goodness' is a real charitable complex. Multiple buildings, surrounding territory. All of this is fully designed and equipped specifically for the needs of the crisis center.",
+        "Moreover, the entire construction was fully funded by charitable donations. The 'City of Goodness' will not be state-funded; it exists solely due to the caring individuals who are concerned about the lives of underprivileged children. Throughout the construction, ordinary people, business representatives, and non-profit organizations supported our idea with their contributions – whether physical, material, creative, informational, or emotional."
+      ],
+      "img": "/images/history/slider-two.jpg",
+      "alt": "Complex with surrounding territory"
+    },
+    "sliderThree": {
+      "text": [
+        "But our mission isn't over. For its daily operations, the 'City of Goodness' constantly requires the support of caring individuals – to pay utility bills, buy food, medicines, hygiene products, and everything else our beneficiaries need. Most of them come to the center with only the clothes they are wearing. So, we call upon every kind-hearted individual – support the 'City of Goodness'! Help us transform it into a realm of absolute love, acceptance, and assistance for those who've lost faith in human kindness. Even your smallest contribution becomes a building block of someone's happy childhood."
+      ],
+      "img": "/images/history/slider-three.jpg",
+      "alt": "Room for a mother and child"
+    },
+    "sliderFour": {
+      "text": [
+        "In this City, everyone can become a missionary of goodness, look after the children, and care for them. The names of the benefactors who helped in the purchase, construction, and equipping of the 'City of Goodness' charity territory will forever remain on the facade wall, where brick by brick, the names of kind-hearted individuals will be embedded."
+      ],
+      "img": "/images/history/slider-four.jpg",
+      "alt": "Anyone can become a volunteer"
+    }
+  },
+  "help": {
+    "text": "The new \"City of Goodness\" building has already opened its doors for its residents. But to truly make it independent and successful, we need your help!",
+    "buttonText": "Help"
+  },
+  "about": {
+    "subtitle": "What is the City of Goodness?",
+    "textQuote": "City of Goodness is a child by their mother's side!",
+    "text": [
+      "City of Goodness is a charitable all-Ukrainian project, a large complex of social services and shelter for mothers with children who have found themselves in difficult life situations. They have become victims of domestic violence, are at risk of ending up on the street, need support in socialization and reintegration, and live below the poverty line. We act to preserve the child within the family.",
+      "In 'City of Goodness,' we fight for every mother for her child. Here, homeless mothers, orphaned mothers, and graduates of orphanages, mothers torn apart by domestic violence and indifference, will find shelter and support.",
+      "Each mother will receive an individual plan for her personal growth, with plans for future education and the acquisition of a profession. The necessary duration of stay in the 'City' will be determined according to the tasks and goals set."
+    ]
+  },
+  "support": {
+    "text": "We appeal to all who care – extend a helping hand to Ukraine during these terrifying times, extend a helping hand to Ukrainian children!",
+    "buttonText": "Support the project"
+  },
+  "news": {
+    "title": "News Page"
+  },
+  "values": [
+    {
+      "title": "INDEPENDENCE",
+      "subtitle": "A place where bureaucratic directives, religious beliefs, and national affiliation will not be important",
+      "imagePath": "hands_one.svg"
+    },
+    {
+      "title": "SUPPORT",
+      "subtitle": "Support point for children and mothers, who will be able to live here until they overcome the crisis.",
+      "imagePath": "hands_two.svg"
+    },
+    {
+      "title": "OPPORTUNITIES",
+      "subtitle": "The opportunity to get a job, so that the mother can take care of and provide for the child in proper conditions.",
+      "imagePath": "hand_flower.svg"
+    }
+  ],
+  "faqSection": {
+    "title": "Questions and Answers",
+    "items": [
+      {
+        "query": "Who do we accept?",
+        "description": "The center accepts women and children of all religions and is adapted for people with different types of physical disabilities.",
+        "responses": [
+          "Women with children suffering from domestic violence;",
+          "Women with children who are homeless and without shelter;",
+          "Women on the verge of losing parental rights due to inadequate care conditions caused by homelessness, poverty, or lack of education;",
+          "Women with children who have documentation issues and therefore cannot find work and housing;",
+          "Women with children from all regions of Ukraine and citizens of other countries who need help in Ukraine;",
+          "Elderly, lonely grandmothers who have nowhere to live or suffer from domestic violence."
+        ]
+      },
+      {
+        "query": "What documents are required for admission to the center?",
+        "description": null,
+        "responses": [
+          "prior agreement with the center by phone or e-mail;",
+          "fluorography;",
+          "analysis for Torch infection."
+        ]
+      },
+      {
+        "query": "Is there a fee to stay in the center?",
+        "description": "Staying at the Center is absolutely FREE.",
+        "responses": []
+      },
+      {
+        "query": "What does the center provide for its wards?",
+        "description": "Misto Dobra has 27 living rooms and can accommodate 80 people. The center is equipped with everything necessary for the accommodation and care of children of different ages. Families living in the center are provided with necessary things, hygiene products and products.",
+        "responses": [
+          "psychological help;",
+          "legal aid;",
+          "medical assistance;",
+          "pedagogical help;",
+          "we teach how to run an economy;",
+          "we teach to follow the child;",
+          "we help to get an education and a job."
+        ]
+      },
+      {
+        "query": "What is the purpose of the 'City of Good' existence?",
+        "description": "'City of Good' is not just a shelter and a place to live, it is a comprehensive program of socialization of women. Our ultimate goal is a woman who can support herself and her children, is self-reliant and independent.The development program is personalized and is based exclusively on the wishes and potential of the woman herself. Throughout the family's rehabilitation, we will keep in touch with the social worker who referred the family to the center and update them on the family's progress, condition and situation.Every woman who comes to us must be ready to work on her development, study, and, if necessary, acquire a profession.",
+        "responses": []
+      }
+    ]
+  },
+  "howToHelp": {
+    "title": "How to help?",
+    "paragraph": "The new home \"The City of Goodness\" has already opened its doors to its residents. But to make it truly independent and successful, we need your help!",
+    "accordionItemOne": {
+      "img": "/images/howtohelp/monobank.svg",
+      "icon": "/images/howtohelp/arrow.svg",
+      "alt": "monobank",
+      "text": [
+        "Monobank card",
+        "4441 1144 4663 3370",
+        "issued to the head of the bank Marta Levchenko"
+      ]
+    },
+    "accordionItemThree": {
+      "img": "/images/howtohelp/paypal.svg",
+      "icon": "/images/howtohelp/arrow.svg",
+      "alt": "paypal",
+      "text": ["PayPal: Good City", "cityofgoodnessukr@gmail.com"]
+    },
+    "accordionItemFour": {
+      "img": "/images/howtohelp/bitcoin.svg",
+      "icon": "/images/howtohelp/arrow.svg",
+      "alt": "bitcoin",
+      "text": [
+        "Binance cryptocurrency wallet",
+        "12YzUqVdKRxWvEhoemyAr8w2bjgrUiXygN"
+      ]
+    },
+    "accordionItemSix": {
+      "subtitle": "Bank transfer",
+      "icon": "/images/howtohelp/arrow.svg",
+      "buttonCurrency": [
+        {
+          "title": "UAH",
+          "content": [
+            "Account in JSC CB “PRIVATBANK”",
+            "CHARITABLE ORGANIZATION ‘CITY OF GOODNESS’ CHARITY FUND",
+            "IBAN",
+            "UA563052990000026001021800106",
+            "CHARITABLE FOUNDATION CITY OF GOODNESS",
+            "USREOU (Unified State Register of Enterprises and Organizations of Ukraine)",
+            "43894641",
+            "MFO (Bank Identification Code)",
+            "305299",
+            "Key card of the Charity Fund “City of Goodness”",
+            "4246 0010 0081 0725",
+            "issued to the head of the organization Marta Levchenko"
+          ]
+        },
+        {
+          "title": "USD",
+          "content": [
+            "Company Name",
+            "CHARITABLE ORGANIZATION ‘CITY OF GOODNESS’ CHARITY FUND",
+            "IBAN",
+            "UA363052990000026006031801190",
+            "Name of the bank",
+            "JSC CB “PRIVATBANK”, 1D HRUSHEVSKOHO STR., KYIV, 01001, UKRAINE",
+            "Bank SWIFT Code",
+            "PBANUA2X",
+            "Company address",
+            "UA 58020, Chernivtsi region, Chernivtsi city, Richna street, b.10",
+            "Account in the correspondent bank",
+            "001-1-000080",
+            "SWIFT Code of the correspondent bank",
+            "CHASUS33",
+            "Correspondent bank",
+            "JP Morgan Chase Bank, New York ,USA",
+            "Account in the correspondent bank",
+            "890-0085-754",
+            "SWIFT Code of the correspondent bank",
+            "IRVT US 3N",
+            "Correspondent bank",
+            "The Bank of New York Mellon, New York, USA"
+          ]
+        },
+        {
+          "title": "EUR",
+          "content": [
+            "Company Name",
+            "CHARITABLE ORGANIZATION ‘CITY OF GOODNESS’ CHARITY FUND",
+            "IBAN",
+            "UA213052990000026003001801305",
+            "Name of the bank",
+            "JSC CB “PRIVATBANK”, 1D HRUSHEVSKOHO STR., KYIV, 01001, UKRAINE",
+            "Bank SWIFT Code",
+            "PBANUA2X",
+            "Company address",
+            "UA 58020, Chernivtsi region, Chernivtsi city, Richna street, b.10",
+            "Account in the correspondent bank",
+            "400886700401",
+            "SWIFT Code of the correspondent bank",
+            "COBADEFF",
+            "Correspondent bank",
+            "Commerzbank AG, Frankfurt am Main, Germany",
+            "Account in the correspondent bank",
+            "6231605145",
+            "SWIFT Code of the correspondent bank",
+            "CHASDEFX",
+            "Correspondent bank",
+            "J.P.MORGAN AG, FRANKFURT AM MAIN, GERMANY"
+          ]
+        }
+      ]
+    },
+    "accordionItemSeven": {
+      "subtitle": "Online payment",
+      "icon": "/images/howtohelp/arrow.svg",
+      "button": ["Help in UAH, USD, EUR"]
+    }
+  },
+  "angelDoll": {
+    "title": "Support the City of Goodness - buy an angel doll!",
+    "buttonUp": "Hide details",
+    "buttonDown": "More details",
+    "img": "/images/howtohelp/arrow.svg",
+    "alt": "arrow",
+    "hiddenText": {
+      "img": "/images/angel-doll.png",
+      "alt": "angel-doll",
+      "text": [
+        "One of the ways to support the existence of the City of Goodness is to buy a unique City of Goodness Angel doll.",
+        "This wonderful toy is sewn by mothers who live in our center. The children help to attach the wings that turn the doll into a real angel. The doll is 25 centimeters high. The sketch was made by an American artist who has been supporting our project for many years, Yulia Kosivchuk.",
+        "Each of our dolls is imbued with love, gratitude, and positive thoughts of our mothers from the very beginning of its creation. She will bring comfort and peace to the house and will protect her owner, as every Guardian Angel should. She will also become a constant reminder of good deeds, and support for the City of Goodness. We pack the doll in a beautiful box, so it will be a great gift for your loved ones!"
+      ],
+      "title": "How to order?",
+      "subtitle1": "To pay",
+      "text1": [
+        "Transfer funds to the Privat card",
+        "5218 5722 2175 5783",
+        "Levchenko Marta"
+      ],
+      "subtitle2": "Write a message",
+      "text2": "Send the payment screen and write the data for sending by \"New Mail\" to us by e-mail cityofgoodnessua@gmail.com"
+    }
+  },
+  "whyNeed": {
+    "title": "Why is the City of Goodness needed?",
+    "paragraphs": [
+      "Every 3 days 250 children are admitted to boarding schools in Ukraine, and every 3 days one child dies there! 95% of these children could have never ended up in an orphanage because they are not orphans, but children from poor families! Unfortunately, it is easier for children's services to take a child from a problem family than to help the family overcome a difficult situation. Such children will spend their entire childhood in an orphanage because adoption with living parents is impossible.",
+      "Poverty becomes an obstacle for a person to receive education, and medical treatment, and protect their interests. But poverty is not a sentence for a loving family. Poor parents are not bad parents! And if you support the family in time, you can change the child's entire life. We can prevent children from going to an orphanage!",
+      "Many mothers live with their children below the poverty line, without necessities. Often, a difficult situation cannot be solved once. Some mothers are graduates of orphanages or mothers who grew up in dysfunctional families and do not have the skills to care for children."
+    ],
+    "images": [
+      "/images/whyneed/whyneedchild.jpg",
+      "/images/whyneed/whyneedchilds.jpg"
+    ]
+  },
+  "footer": {
+    "email": "Email",
+    "phones": "Phones",
+    "socialNet": "Follow Us",
+    "report": "Report",
+    "policy": "Privacy Policy",
+    "rules": "Site Rules"
+  },
+  "blog": {
+    "title": "Blog",
+    "text": "This page contains profile articles"
+  }
+}

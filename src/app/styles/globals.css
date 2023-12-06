@@ -1,0 +1,100 @@
+:root {
+  /*colors*/
+  --white: #ffffff;
+  --grey100: #f2f2f2;
+  --grey300: #b3b3b3;
+  --gray-light: #ffffff99;
+  --grey500: #868686;
+  --grey700: #595959;
+  --grey900: #262626;
+  --yellow500: #ffda0c;
+  --yellow700: #ffc20a;
+
+  /*shadows*/
+  --shadowS: 0px 1px 2px 0px rgba(16, 24, 40, 0.06),
+    0px 1px 3px 0px rgba(16, 24, 40, 0.1);
+  --shadowM: 0px 2px 4px -2px rgba(16, 24, 40, 0.06),
+    0px 4px 8px -2px rgba(16, 24, 40, 0.1);
+
+  /*fonts*/
+  --captions-fs: 10px;
+  --captions-fw: 600;
+  --captions-ls: 1px;
+  --captions-lh: normal;
+
+  --body-small-fs: 12px;
+  --body-small-fw: 400;
+  --body-small-lh: 1.5;
+
+  --body-medium-mb-fs: 14px;
+  --body-medium-mb-fw: 400;
+  --body-medium-mb-lh: 1.85;
+
+  --body-medium-web-fs: 16px;
+  --body-medium-web-fw: 400;
+  --body-medium-web-lh: 1.62;
+
+  --body-medium-semibold-fs: 16px;
+  --body-medium-semibold-fw: 600;
+  --body-medium-semibold-lh: 1.5;
+
+  --body-lg-fs: 18px;
+  --body-lg-fw: 500;
+  --body-lg-lh: 1.44;
+
+  --body-lg-bold-fs: 18px;
+  --body-lg-bold-fw: 700;
+  --body-lg-bold-lh: 1.44;
+
+  --quote-mob-fs: 20px;
+  --quote-mob-f-style: italic;
+  --quote-mob-fw: 400;
+  --quote-mob-lh: normal;
+
+  --quote-web-fs: 24px;
+  --quote-web-f-style: italic;
+  --quote-web-fw: 400;
+  --quote-web-lh: normal;
+
+  --subtitle-medium-fs: 20px;
+  --subtitle-medium-fw: 500;
+  --subtitle-medium-lh: 1.4;
+
+  --subtitle-bold-fs: 20px;
+  --subtitle-bold-fw: 700;
+  --subtitle-bold-lh: 1.4;
+
+  --title1-fs: 32px;
+  --title1-fw: 700;
+  --title1-lh: normal;
+
+  --title2-fs: 36px;
+  --title2-fw: 700;
+  --title2-lh: 1.33;
+
+  --title3-fs: 40px;
+  --title3-fw: 900;
+  --title3-ls: 2px;
+  --title3-lh: normal;
+
+  --title4-fs: 48px;
+  --title4-fw: 800;
+  --title4-lh: normal;
+
+  /* breakpoints */
+  --breakpoint-xs: 320px; /* Mobile devices (mostly older smartphones) */
+  --breakpoint-sm: 481px; /* Larger smartphones and phablets */
+  --breakpoint-md: 769px; /* Small tablets (in portrait mode) and very small laptops */
+  --breakpoint-lg: 1025px; /* Tablets in landscape mode, and medium-sized laptops */
+  --breakpoint-xl: 1401px; /* Larger laptops and standard desktop screens */
+  --breakpoint-xxl: 2001px; /* Extra large desktop monitors, TVs, and ultra-wide screens */
+
+  /* paddings */
+  --padding-xs: 8px;
+  --padding-sm: 16px;
+  --padding-md: 24px;
+  --padding-lg: 32px;
+  --padding-xl: 40px;
+  --padding-xxl: 64px;
+  --padding-xxxl: 80px;
+}

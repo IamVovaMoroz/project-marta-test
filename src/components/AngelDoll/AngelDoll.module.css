@@ -1,0 +1,65 @@
+.angelDoll-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.hiddenText-isDesktop {
+  display: flex;
+  justify-content: space-between;
+}
+
+.angelDoll-title {
+  font-family: var(--font-mulish), sans-serif;
+  font-size: var(--subtitle-bold-fs);
+  font-weight: var(--subtitle-bold-fw);
+  line-height: var(--subtitle-bold-lh);
+}
+
+.angelDoll-btn-hidden-mb {
+  display: none;
+}
+
+.angelDoll-btn-mb {
+  align-self: flex-start;
+  display: flex;
+}
+
+.arrow-transform {
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transition: transform 0.3s ease-in-out;
+  padding-top: 2px;
+}
+
+.arrow-back {
+  transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transition: transform 0.3s ease-in-out;
+  padding-top: 2px;
+}
+
+@media screen and (min-width: 768px) {
+  .angelDoll-wrapper {
+    gap: 32px;
+  }
+
+  .angelDoll-title {
+    font-family: var(--font-mulish), sans-serif;
+    font-size: var(--title1-fs);
+    font-weight: var(--title1-fw);
+    line-height: var(--title1-lh);
+    margin-bottom: 0;
+  }
+
+  .hiddenText-isDesktop {
+    display: flex;
+    justify-content: space-between;
+  }
+}

@@ -1,0 +1,125 @@
+.header {
+  height: 72px;
+  position: fixed;
+  inset: 0 0 0 0;
+  z-index: 9999;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 16px 18px;
+  margin: 0 auto;
+  background: rgba(53, 53, 53, 0.6);
+  height: 72px;
+}
+
+.burger {
+  width: 85%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  background: var(--grey500);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 18px 16px 20px 16px;
+  float: right;
+  height: 80vh;
+  gap: 32px;
+}
+
+.close {
+  cursor: pointer;
+}
+
+.main {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.nav-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.nav-lang {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-menu a,
+.nav-lang a {
+  font-family: var(--font-manrope);
+  font-size: var(--body-lg-fs);
+  font-style: normal;
+  font-weight: var(--body-lg-fw);
+  line-height: var(--body-lg-lh);
+  color: var(--grey100);
+}
+
+.nav-menu a.active,
+.nav-lang a.active {
+  font-size: var(--body-lg-bold-fs);
+  font-weight: var(--body-lg-bold-fw);
+  line-height: var(--body-lg-bold-lh);
+  color: var(--white);
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    padding: 20px var(--padding-xxl);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .header {
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    height: 72px;
+    z-index: 5;
+  }
+
+  .container {
+    padding: 12px 120px;
+    background: rgba(53, 53, 53, 0.6);
+  }
+
+  .wrapper {
+    width: 1220px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .navigation {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60%;
+    align-items: center;
+  }
+
+  .nav-menu {
+    flex-direction: row;
+  }
+
+  .nav-lang {
+    flex-direction: row;
+  }
+}

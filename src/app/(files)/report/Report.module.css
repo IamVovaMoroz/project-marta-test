@@ -1,0 +1,9 @@
+.report {
+  width: 100%;
+  border: none;
+  left: 0;
+  position: fixed;
+  top: 0;
+  height: 100%;
+  margin: 0;
+}

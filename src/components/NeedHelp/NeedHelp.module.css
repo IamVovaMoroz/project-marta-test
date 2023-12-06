@@ -1,0 +1,290 @@
+.wrapper {
+  background-image: linear-gradient(0deg, rgba(38, 38, 38, 0.6), #262626),
+    url("/images/pictures/war_image.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.help {
+  display: flex;
+  flex-direction: column;
+
+  color: var(--white);
+  gap: 24px;
+}
+
+.help img {
+  cursor: pointer;
+}
+
+.main {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  align-self: stretch;
+}
+
+.title h2 {
+  font-family: var(--font-mulish);
+  font-size: var(--subtitle-bold-fs);
+  font-style: normal;
+  font-weight: var(--subtitle-bold-fw);
+  line-height: var(--subtitle-bold-lh);
+}
+
+.title p {
+  font-family: var(--font-manrope);
+  font-size: var(--body-lg-fs);
+  font-style: normal;
+  font-weight: var(--body-lg-fw);
+  line-height: var(--body-lg-lh);
+}
+
+.info {
+  text-align: justify;
+  display: grid;
+  row-gap: 12px;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.info p {
+  font-family: var(--font-manrope);
+  font-size: var(--body-medium-mb-fs);
+  font-style: normal;
+  font-weight: var(--body-medium-mb-fw);
+  line-height: var(--body-medium-mb-lh);
+}
+
+.ellipses {
+  display: flex;
+  position: relative;
+  height: 118px;
+}
+
+.ellipses div {
+  flex: 1;
+  color: lightgray;
+}
+
+.ellipses_1,
+.ellipses_2,
+.ellipses_3,
+.ellipses_4,
+.ellipses_5 {
+  border: 4px solid var(--yellow500);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-shrink: 0;
+  border-radius: 100%;
+  position: absolute;
+}
+
+.ellipses_1 {
+  background-image: url("/images/pictures/wall.jpg");
+  bottom: 4px;
+  left: 0;
+}
+
+.ellipses_2 {
+  background-image: url("/images/pictures/crash_plain.jpg");
+  top: 7px;
+  left: 9%;
+}
+
+.ellipses_3 {
+  width: 118px;
+  height: 118px;
+  background-image: url("/images/pictures/fighters.jpg");
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.ellipses_4 {
+  background-image: url("/images/pictures/window.jpg");
+  bottom: 0;
+  left: 68%;
+}
+
+.ellipses_5 {
+  background-image: url("/images/pictures/wall_distroyed.jpg");
+  top: 12%;
+  right: 0;
+}
+
+.ellipses_1,
+.ellipses_5 {
+  width: 48px;
+  height: 48px;
+}
+
+.ellipses_2,
+.ellipses_4 {
+  width: 72px;
+  height: 72px;
+}
+
+.support {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.support button {
+  width: 126px;
+  height: 44px;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 768px) {
+  .ellipses_1 {
+    bottom: 4px;
+    left: 0;
+  }
+
+  .ellipses_2 {
+    top: 10px;
+    left: 18%;
+  }
+
+  .ellipses_3 {
+    width: 128px;
+    height: 128px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .ellipses_4 {
+    bottom: 0;
+    left: 70%;
+  }
+
+  .ellipses_5 {
+    top: 8%;
+    right: 0;
+  }
+
+  .ellipses_1,
+  .ellipses_5 {
+    width: 56px;
+    height: 56px;
+  }
+
+  .ellipses_2,
+  .ellipses_4 {
+    width: 92px;
+    height: 92px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .help.opened {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+  }
+  .title h2 {
+    font-size: var(--title3-fs);
+    font-weight: var(--title3-fw);
+    line-height: var(--title3-lh);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+
+  .title p {
+    font-family: var(--font-mulish);
+    font-size: var(--subtitle-bold-fs);
+    font-weight: var(--subtitle-bold-fw);
+    line-height: var(--subtitle-bold-lh);
+    text-transform: uppercase;
+  }
+
+  .help.opened .title {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 288px;
+  }
+
+  .info {
+    position: relative;
+    grid-template-columns: 416px 416px;
+    column-gap: 40px;
+    row-gap: 16px;
+    align-items: start;
+    grid-template-areas:
+      "one four"
+      "two five"
+      ". six"
+      "three three";
+  }
+
+  .info p {
+    font-family: var(--font-manrope);
+    font-size: var(--body-medium-web-fs);
+    font-style: normal;
+    font-weight: var(--body-medium-web-fw);
+    line-height: var(--body-medium-web-lh);
+  }
+
+  .ellipses {
+    grid-area: three;
+  }
+  .text {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .support-btn {
+    width: 126px;
+    align-self: flex-end;
+  }
+
+  .toggle {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+  .ellipses {
+    height: 250px;
+  }
+  .ellipses_1 {
+    bottom: 17px;
+    left: -80px;
+  }
+
+  .ellipses_2 {
+    top: 12px;
+    left: 10%;
+  }
+  .ellipses_3 {
+    width: 250px;
+    height: 250px;
+  }
+
+  .ellipses_4 {
+    right: 167px;
+    bottom: 8px;
+  }
+
+  .ellipses_5 {
+    right: 0;
+    top: 44px;
+  }
+
+  .ellipses_1,
+  .ellipses_5 {
+    width: 84px;
+    height: 84px;
+  }
+
+  .ellipses_2,
+  .ellipses_4 {
+    width: 158px;
+    height: 154px;
+  }
+}

@@ -1,0 +1,107 @@
+.aboutSection {
+  display: flex;
+  flex-direction: column;
+}
+
+.subtitle {
+  font-family: var(--font-mulish), sans-serif;
+  font-size: var(--subtitle-bold-fs);
+  font-weight: var(--subtitle-bold-fw);
+  line-height: var(--subtitle-bold-lh);
+  margin-bottom: 14px;
+}
+
+.text {
+  font-family: var(--font-manrope), sans-serif;
+  font-size: var(--body-medium-mb-fs);
+  font-weight: var(--body-medium-mb-fw);
+  line-height: var(--body-medium-mb-lh);
+  width: 100%;
+}
+.text1 {
+  margin-top: 16px;
+}
+.text2 {
+  margin-top: 12px;
+}
+.text3 {
+  margin-top: 12px;
+}
+
+.textQuote {
+  font-family: var(--font-mulish), sans-serif;
+  font-weight: var(--quote-mob-fw);
+  font-style: var(--quote-mob-f-style);
+  font-size: var(--quote-mob-fs);
+  line-height: var(--quote-mob-lh);
+  text-align: right;
+  margin-top: 16px;
+  color: var(--grey700);
+}
+
+.image {
+  width: auto;
+  height: auto;
+  border: 4px solid var(--yellow500);
+  border-radius: 8px;
+}
+
+@media screen and (min-width: 1280px) {
+  .subtitle {
+    font-family: var(--font-mulish), sans-serif;
+    font-size: var(--title1-fs);
+    font-weight: var(--title1-fw);
+    line-height: var(--title1-lh);
+    margin-bottom: 14px;
+  }
+  .text {
+    font-family: var(--font-manrope), sans-serif;
+    font-size: var(--body-medium-web-fs);
+    font-weight: var(--body-medium-web-fw);
+    line-height: var(--body-medium-web-lh);
+
+    width: 100%;
+  }
+
+  .text1 {
+    margin-top: 0px;
+  }
+  .text2 {
+    margin-top: 16px;
+  }
+  .text3 {
+    margin-top: 16px;
+  }
+
+  .textQuote {
+    font-family: var(--font-mulish), sans-serif;
+    font-weight: var(--quote-web-fw);
+    font-style: var(--quote-web-f-style);
+    font-size: var(--quote-web-fs);
+    line-height: var(--quote-web-lh);
+    text-align: right;
+    color: var(--grey700);
+    margin-top: 40px;
+  }
+
+  .infoContainer {
+    display: flex;
+  }
+
+  .image {
+    order: 2;
+    width: 320px;
+    height: 320px;
+    border: 4px solid var(--yellow500);
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .mainText {
+    order: 1;
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+    width: 528px;
+  }
+}
