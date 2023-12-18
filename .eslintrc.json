@@ -102,7 +102,7 @@
         "import/no-extraneous-dependencies": "off"
         // Add any other rules you want to override or disable for this specific file
       }
-    },
+    }
     // Add more overrides as needed
   ],
   "rules": {
