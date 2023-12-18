@@ -3,7 +3,7 @@
   "/favicon.ico/route": "app/favicon.ico/route.js",
   "/api/hello/route": "app/api/hello/route.js",
   "/(files)/report/page": "app/(files)/report/page.js",
-  "/(landing)/[lang]/news/page": "app/(landing)/[lang]/news/page.js",
+  "/(landing)/[lang]/page": "app/(landing)/[lang]/page.js",
   "/(landing)/[lang]/blog/page": "app/(landing)/[lang]/blog/page.js",
-  "/(landing)/[lang]/page": "app/(landing)/[lang]/page.js"
+  "/(landing)/[lang]/news/page": "app/(landing)/[lang]/news/page.js"
 }
