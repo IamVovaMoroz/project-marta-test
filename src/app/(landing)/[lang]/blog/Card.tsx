@@ -106,7 +106,7 @@ const Card: React.FC<BlogCardProps> = ({
           )}
 
           {description && (
-            <div className="summary">
+            <div className="description">
               <p>{description}</p>
             </div>
           )}
