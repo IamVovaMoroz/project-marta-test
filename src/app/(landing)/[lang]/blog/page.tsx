@@ -92,12 +92,12 @@ const BlogPage: NextPage<IProps> = async ({ params: { lang } }) => {
                 author={blog.attributes.author}
                 slug={blog.attributes.slug}
 
-              // category={blog.attributes.Category}
-              // title={blog.attributes.Title}
-              // summary={blog.attributes.Summary}
-              // href={`/${blog.attributes.slug}`}
-              // imgSrc={`${blog.attributes.Thumbnail.data.attributes.url}`}
-              // imgAlt="blog img"
+                // category={blog.attributes.Category}
+                // title={blog.attributes.Title}
+                // summary={blog.attributes.Summary}
+                // href={`/${blog.attributes.slug}`}
+                // imgSrc={`${blog.attributes.Thumbnail.data.attributes.url}`}
+                // imgAlt="blog img"
               />
             </div>
           ))
